@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--linijka mówi otym jakiego typu jest dokument-->
+<html lang="pl">
+<!--tutaj definiujemy język strony, jest to istotne pod kątem np. tłumaczenia-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--tak się linkuje css, teraz tworzy się osobny plik z rozszerzeniem .css i tam się dalej działa-->
+    <!--składnia css to REGUŁY-->
+    <!--znacznik style, pozwala nam na używanie styli bez konieczności tworzenia dodatkowego pliku-->
+    <!-- <style>
+       h1 {
+           color: blue;
+           // mogę też wpisać #
+       } 
+       p {
+           color: gray;
+       }
+    </style> -->
+</head>
+
+<body class="body-style">
+    <main>
+        <header>
+            <nav>
+                <a href="index.html">Strona główna, </a>
+                <a href="nauka-html.html">nauka-html. </a>
+            </nav>
+        </header>
+        <header>
+            <h1>Przemysław Kalota – Strona domowa</h1>
+            <!--<h1 style=color:red;>Przemysław Kalota – Strona domowa</h1> 
+                to jest kolejny sposób na używanie css, możemy wpisać go bezpośrednio w znacnzik. Takie stylowanie wprowadza bałagan-->
+        </header>
+
+        <section>
+            <img src="korsan-header.jpg" alt="Uśmiechnięty Korsan" />
+            <header id="top">
+                <h2>Kim jestem?</h2>
+            </header>
+            <p>
+                <!--<p style="color:blueviolet; background:green"></p> tak się aplikuje style inline, bezpośrednio do znacznika
+            takiew działanie wprowadza straszny bałagan.. -->
+                Cześć! Na co dzień pracuję jako <strong>handlowiec</strong> w firmie <b>DynamicHT</b> i zajmuję się
+                sprzedażą klejów
+                termotopliwych.
+                W
+                tygodniu pracuję, natomiast weekendami studiuję informatykę w WSTI w Katowicach będąc obecnie na 4
+                semestrze.<br />
+                <!--znacznik <br/> służy do łamania linii-->
+                Poza
+                pracą i studiami, interesuję się muzyką (nawet trochę brzdąkam), terrarystyką i postcrossingiem.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="hotpink-header"> WTF: co ten frontend</h2>
+            <article>
+                <h3 class="hotpink-header">Nauka frontendu</h3>
+                <!--znacznik o nazwie hotpink-header, znaczniki najlepiej tutaj nazywać kebab casem-->
+                <p>
+                    Uczę się <i>tajemnej</i> sztuki frontendu na kursie Maćka Korsana <a
+                        href="https://cotenfrontend.pl">WTF:co ten frontend</a>. Nauka
+                    tworzenia
+                    stron w
+                    zgodnie
+                    z
+                    wszelakimi standardami, to ciężki choć satysfakcjonujący proces.</br> Wymaga ode mnie mnóstwo
+                    zamozaparcia,
+                    systematyczności oraz <em>właściwego zarządzania swoim czasem.</em>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, quibusdam? Corrupti beatae sint
+                    similique optio. Voluptas dolorum pariatur quidem. Rerum, ducimus reiciendis ex cumque quibusdam
+                    mollitia quaerat aperiam quisquam est!
+                </p>
+            </article>
+
+            <article>
+                <!--każda sekcja i każdy artykół musi mieć swój nagłówek, inaczej validator wywala błąd-->
+
+                <h3>Jakie plany po szkoleniu?</h3>
+                <p>
+                    Ukończywszy szkolenie, chciałbym poszukać pracy związanej z tematyką frontendową. Liczę na to, że
+                    uczestnictwo w
+                    kursie połączone z ciężką nauką pomoże mi znaleźć furtkę do świata branży IT.
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <header>
+                <h2> próbna lista </h2>
+            </header>
+
+            <li>pierwszy element listy;</li>
+            <li>drugi element listy:</li>
+            <ol>
+                <li>podelemnt 2giego elemntu listy;</li>
+                <li>kolejny podelement 2giego element listy</li>
+            </ol>
+            <li>trzeci element listy</li>
+
+
+
+        </section>
+
+
+
+    </main>
+    <footer>
+        <h6>Strona domowa Przemka Kaloty, wszystkie treści są efektem nauki na kursie WTF: co ten frontend.</h6>
+        <a href="#top">
+            <h6>powrót na górę</h6>
+        </a>
+    </footer>
+
+    <script src="main.js"> </script>
+</body>
+
+</html>

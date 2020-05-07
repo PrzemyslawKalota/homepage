@@ -1,0 +1,50 @@
+h1 {
+    color: #272727;
+    background: #FED766;
+}
+
+
+.hotpink-header{
+    /*kropka to jest selektor klasy, jest bardzo ważna*/
+    color: #009FB7;
+}
+
+#top{
+    /*stylowanie za pomocą id */
+    color: #009FB7;
+    background: EFF1F3;
+}
+
+nav a {
+    /*zagnieżdżone stylowanie, najpierw wchodzimy w nav a później w a tóre jest wewnątrz a*/
+    color:#499e57;
+}
+
+a{
+    color: orange; /*!important;*/
+    /* dodanie tego importanta, "zabija" wszystkie inne reguły które zsastosujemy, nadpisuje je i zatraca ich 
+    ważność. Nie używać go, chyba ze dostkonale wiemy że musimy */
+}
+/* tutaj widać że możemy np ostylować tylko te znaczniki które znajdują się w jakimś innym znacnziku,
+piszemy nazwę znacnzika, w tym przypadku nav, dajemy spację i lecimy z tematem;*/
+
+.nauka-body{
+    background: #EFF1F3;
+}
+
+.index-body{
+
+    background: #EFF1F3;
+}
+
+p{
+    color: #009FB7;
+}
+
+li{
+    list-style-type: circle;
+}
+
+ol li{
+    list-style-type: square;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--linijka mówi otym jakiego typu jest dokument-->
+<html lang="pl">
+<!--tutaj definiujemy język strony, jest to istotne pod kątem np. tłumaczenia-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--tak się linkuje css, teraz tworzy się osobny plik z rozszerzeniem .css i tam się dalej działa-->
+    <!--składnia css to REGUŁY-->
+    <!--znacznik style, pozwala nam na używanie styli bez konieczności tworzenia dodatkowego pliku-->
+    <!-- <style>
+       h1 {
+           color: blue;
+           // mogę też wpisać #
+       } 
+       p {
+           color: gray;
+       }
+    </style> -->
+</head>
+
+<body class="index-body">
+    <main>
+        <header>
+            <nav>
+                <a href="index.html">Strona główna, </a>
+                <a href="nauka-html.html">nauka-html. </a>
+            </nav> 
+        </header>
+        <header>
+            <h1>Moje ulubione znaczniki</h1>
+        </header>
+
+        <section>
+            <header id="top">
+                <h2>h1</h2>
+            </header>
+            <p>
+               To mój ulubiony znacznik
+            </p>
+        </section>
+
+        
+
+      
+
+    </main>
+    <footer>
+        <h6>Strona domowa Przemka Kaloty, wszystkie treści są efektem nauki na kursie WTF: co ten frontend.</h6>
+        <a href="#top">
+            <h6>powrót na górę</h6>
+        </a>
+    </footer>
+    <script src="main.js"> </script>
+</body>
+
+</html>
